@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tea-house</title>
+  <title>nature's platter</title>
   <!-- font awesome cdn  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -41,38 +41,54 @@
 </head>
 <body>
     <!-- header section  -->
-     <header> 
+     <header  class="bg-gradient-to-b from-[#FFFFFF] to-[#f3f1ec]"> 
         <!-- navbar section  -->
-        <nav class=" max-w-7xl  py-4 mx-auto justify-between items-center hidden md:flex">
-           <div>
+        <nav class="max-w-7xl py-4 mx-auto justify-between items-center md:flex hidden">
+           <div class="w-20">
             <img src="./c2-assets/logo-header.png" alt="">
            </div>
-           <div class="flex ml-3 ">
-            <ul class="flex gap-6">
+
+            <ul class="flex items-center gap-7">
                 <li><a href="index.html">Product</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
-            <div>
+
+            <div class="flex gap-5 items-center">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
-            </div>
-            <div>
-                <button>Login</button>
-                <button>Register</button>
-            </div>
+       
+         
+                <button  class="border border-green-400 py-1 px-4 rounded hover:bg-green-600 hover:text-white font-[300]">Login</button>
+                <button  class="border border-green-400 py-1 px-4 rounded bg-green-600 text-white hover:bg-slate-100 hover:text-black font-[300]">Register</button>
+       
            </div>
+          </div>
         </nav>
-        <!-- hero sectoin  -->
-         <section class="">
-          <h1>Freshness You Can
+      </header>
+            
+       <!-- mobile device  navbar start iphone xr -->
+       <nav>
+        <div class="max-w-[90%] mx-auto py-5 flex md:hidden justify-between items-center">
+         <img class="w-12" src="./c2-assets/Group.png" alt="" />
+         <i class="fa-solid fa-bars text-2xl text-green-700"></i>
+        </div>
+        <hr class="md:hidden border border-green-700"/>
+        </nav>
+        <!-- mobile device  navbar end  -->
+      
+
+
+         hero sectoin 
+         <section class="text-center">
+          <h1>Freshness You Can <br>
             Count On, Prices You’ll Love!</h1>
-           <p>
-            Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-            <img src="./c2-assets/hero-vegetables.png" alt="">
+           
+           <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+            <img class="" src="./c2-assets/hero-vegetables.png" alt="">
          </section>    
      </header>
-     <!-- service section  -->
+     service section  
       <section>
         <div>
           <h1>
@@ -109,7 +125,7 @@
         </div>
      
       </section>
-      <!-- popular product section  -->
+      popular product section  
        <section  class="flex max-w-7xl  py-4 mx-auto justify-between items-center text-left">
         <div>
           <div>
@@ -210,7 +226,7 @@
         </div>
        </section>
 
-       <!-- Arrival & Offers section  -->
+        Arrival & Offers section  
         <section>
           <div>
             <h1>Arrival & Offers</h1>
@@ -232,7 +248,7 @@
         </div>
         </section>
 
-        <!-- get grocery seciton  -->
+         get grocery seciton  
        <section class="flex max-w-7xl  py-4 mx-auto justify-between items-center text-left">
         <div>
           <img src="./c2-assets/vegetable-busket.png" alt="">
@@ -245,7 +261,7 @@
         </div>
        </section>
 
-       <!-- footer seciton  -->
+        footer seciton 
         <section class="flex justify-around bg-green-500 items-center">
             <div>
               <img src="./c2-assets/logo-footer.png" alt="">
@@ -264,6 +280,6 @@
               <i class="fa-brands fa-instagram"></i>
               <i class="fa-brands fa-linkedin"></i>
             </div>
-        </section>
+        </section> 
 </body>
 </html>
