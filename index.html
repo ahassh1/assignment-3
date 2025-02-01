@@ -28,6 +28,18 @@
     }
   </script>
   <style>
+      @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .animate-pulse-infinite {
+            animation: pulse 1.6s infinite;
+        }
         html, body{
         margin: 0;
         padding: 0;
@@ -78,7 +90,7 @@
       
           <!-- banner sectoin  -->
          <section  class="flex flex-col items-center  md:w-[80%] mx-auto mt-16 gap-7">
-          <h1 class="text-center text-3xl md:text-5xl font-[600] text-black ">Freshness <span class="text-green-600">You Can <br>
+          <h1 class="text-gray-800 animate-pulse-infinite text-center text-3xl md:text-5xl font-[600] text-black ">Freshness <span class="text-green-600">You Can <br>
             Count </span> On, Prices You’ll Love!</h1>
            
            <p class="text-center  w-[90%] md:w-[50%] mx-auto text-gray-500">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you this <br>covered every day!</p>
@@ -602,10 +614,10 @@
               <div>
                 <h2>Follow Us</h2>
                 <div class="flex gap-5 mt-2">
-                  <i class="fa-brands fa-facebook"></i>
                   <i class="fa-brands fa-youtube"></i>
                   <i class="fa-brands fa-instagram"></i>
                   <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-facebook"></i>
                 </div>
               </div>
             </div>
